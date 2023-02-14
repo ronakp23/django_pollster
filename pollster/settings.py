@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['web-production-7ee1.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-7ee1.up.railway.app']
 
 ROOT_URLCONF = 'pollster.urls'
 
